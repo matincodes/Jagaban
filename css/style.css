@@ -15,12 +15,13 @@ body{
     background: linear-gradient(180deg,
      rgba(16, 34, 130, 0.6072) 0%,
       rgba(16, 34, 130, 0.9016) 100%), 
-      url(img/jagaban-main.jpg);
+      url(../img/jagaban-main.jpg);
       background-position: center;
       background-size: cover;
       color: #fff;
       position: relative;
 }
+
 
 .nav{
     display: flex;
@@ -131,7 +132,7 @@ body{
     background: linear-gradient(180deg,
     rgba(16, 34, 130, 0.6072) 0%,
      rgba(16, 34, 130, 0.9016) 100%), 
-     url(img/phrase-img.jpg);
+     url(../img/phrase-img.jpg);
      background-size: cover;
      background-position: center;
 }
@@ -234,7 +235,7 @@ body{
 }
 
 .photo-news{
-    background-image:linear-gradient(to bottom, #272727c7, #272727b7), url(img/paint-wall.jpg);
+    background-image:linear-gradient(to bottom, #272727c7, #272727b7), url(../img/paint-wall.jpg);
 }
 
 .photo{
@@ -280,14 +281,16 @@ body{
 }
 
 .footer{
-    margin-top: 1rem;
+    padding: 1rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #121926;
 }
 
 .footer__text{
     padding-left: 2rem;
+    color: #fff;
 }
 
 .footer__icons{

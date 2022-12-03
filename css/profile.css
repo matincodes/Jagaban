@@ -1,0 +1,79 @@
+.main{
+    padding: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.profile__text-box{
+    display: flex;
+}
+
+.profile__heading{
+    float: left;
+    padding-right: 3rem;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.jagaban{
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: .5rem;
+}
+.profile__img{
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.img{
+    background: url(../img/tinubu-blur.jpg);
+    height: 80vh;
+    background-position: top;
+    background-size: cover;
+}
+
+.profile__text p:first-child{
+    padding-top: 3rem;
+}
+.profile__text p span{
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+
+.profile__section h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.section__img img{
+    float: right;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.profile__list li{
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+    padding: 1rem;
+}
+.profile__list li span{
+    color: #F04438;
+}
+
+.profile__list > li:before {
+    color: #F04438;
+    content: counter(list) ".)";
+    left: -15px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+  }
+
+  .innerlist li{
+    list-style: none;
+  }
+  

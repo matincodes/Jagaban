@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+}
+
+main{
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-around;
+    gap: 5rem;
+}
+.header-article{
+    background: linear-gradient(180deg,
+    rgba(16, 34, 130, 0.6072) 0%,
+     rgba(16, 34, 130, 0.9016) 100%), 
+     url(img/jagaban-main.jpg);
+}
+
+.nav-article{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+
+}
+
+.article{
+    width: 80%;
+}
+
+.article h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 3rem 0;
+}
+
+.article__text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400; 
+}
+
+.article__text p{
+    padding: 1rem 0;
+}
+
+.article__text p span{
+    display: inline-block;
+    padding: .5rem 0;
+}
+
+.img__grid{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.img__grid img{
+    width: 100%;
+}
+
+.article__link{
+    color:#FF1100;
+    text-decoration: none;
+}
+
+.article__aside{
+    margin-top: 10rem;
+    padding-right: 3rem;
+}
+
+.article__aside h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+
+.news__col{
+    margin-bottom: 1rem;
+}
+
+.article__bottom{
+    padding-top: 2rem;
+    border-top:2px solid #9AA4B2;
+}
+
+.share{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+}
+
+.link button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 9px;
+    margin: 0 10px;
+    background: none;
+    color: #364152;
+    border: none;
+    border: 1px solid #364152;
+    border-radius:3px;
+    text-align: center;
+}
+
+.link button i{
+    color: #9AA4B2;
+}
+
+.prev-next{
+    padding:2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: ;
+}
