@@ -11,12 +11,12 @@ body{
 }
 
 .header{
-    height: 90vh;
+    height: 80vh;
     background: linear-gradient(180deg,
      rgba(16, 34, 130, 0.6072) 0%,
       rgba(16, 34, 130, 0.9016) 100%), 
-      url(../img/jagaban-main.jpg);
-      background-position: center;
+      url(../img/tinubu-blur.jpg);
+      background-position: top;
       background-size: cover;
       color: #fff;
       position: relative;
@@ -66,28 +66,21 @@ body{
 
 .header__text-box{
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .heading__primary{
-    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
     text-align: center;
-}
-
-.heading__primary-main{
     display: block;
-    font-size: 105px;
-    letter-spacing: 35px;
+    font-size: 50px;
     font-weight: 800;
-    margin-left: 20px;
 }
 
-.heading__primary-secondary{
-    font-size: 20px;
-    font-weight: 400;
-}
 
 .features{
     margin: 4rem 6rem;
@@ -99,17 +92,29 @@ body{
     gap: 2rem;
 }
 
+.col__img{
+    width: 100%;
+    display:flex;   
+}
+
 .features__img{
-    width: 40vw;
+    padding-top: 2rem;
+    width: 50%;
+    object-fit: cover;
+    padding: .5rem;
 }
 
 .heading__secondary{
     font-weight: 800;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 40px;
     color: #142B3C;
-    letter-spacing: .1rem;
-    text-align: center;
+}
+
+.feature__heading{
+    font-family: 'Playfair Display', serif;
+    padding-left: 1rem;
+    font-weight: 600;
 }
 
 .features__text{
